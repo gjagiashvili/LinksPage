@@ -1,0 +1,32 @@
+.page {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f5f5f5;
+  h1 {
+    font-size: 40px;
+    color: #4287f5;
+  }
+
+  h3 {
+    font-size: 24px;
+    color: black;
+    margin-top: 10px;
+  }
+
+  p {
+    font-size: 15px;
+    color: grey;
+    margin-top: 20px;
+  }
+}
+
+.content {
+  text-align: center;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}

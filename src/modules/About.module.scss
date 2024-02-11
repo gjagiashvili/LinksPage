@@ -1,0 +1,67 @@
+.page {
+  display: flex;
+  margin: 0;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.content {
+  text-align: center;
+  color: black;
+  padding: 20px;
+  box-sizing: border;
+  width: 70%;
+}
+
+.aboutContent {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.leftSection {
+  flex: 1;
+}
+
+.smallImage {
+  border-radius: 5%;
+  width: 600px;
+  height: 400px;
+}
+
+.rightSection {
+  flex: 3;
+  text-align: center;
+  padding-left: 20px;
+}
+
+.headerText {
+  font-size: 40px;
+  font-weight: bold;
+  color: black;
+}
+
+.roleText {
+  font-size: 18px;
+}
+
+.paragraphText {
+  font-size: 14px;
+  margin-top: 15px;
+  color: grey;
+}
+.hireMeButton {
+  margin-top: 20px;
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  cursor: pointer;
+  background-color: #4287f5;
+  &:hover {
+    background-color: #5581c7bd;
+  }
+}
